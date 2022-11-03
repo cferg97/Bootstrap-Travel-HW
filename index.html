@@ -25,13 +25,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#week">Deals of the Week</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link" href="#summer">Welcome Summer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#day">Deal of the Day</a>
                 </li>
             </ul>
         </div>
@@ -45,10 +48,12 @@
         <p>Leaders in odd package holidays.</p>
     </div>
 
-    <div class="container-fluid text-center justify-content-center mb-5" style="width: 90%;">
+    <div id="week" class="container-fluid text-center justify-content-center mb-5" style="width: 90%;">
         <h3 class="mb-4"><i class="fa-solid fa-plane-departure"></i> Deals of the Week <i
                 class="fa-solid fa-plane-arrival"></i></h3>
-        <div class="row justify-content-center gx-0">
+                <hr class="my-4">
+        <p class="lead">Be quick, these deals won't be around for long</p>
+        <div class="row justify-content-center">
             <div class="col-lg-3 col-md-3 col-sm-6">
                 <div class="card">
                     <img src="./images/stuttgart.jpg" class="card-img-top" alt="...">
@@ -89,12 +94,13 @@
         </div>
     </div>
 
-    <div class="container-fluid" style="width: 90%;">
+    <div id="summer" class="container-fluid mb-5 shadow-lg pt-4 pb-4 rounded" style="width: 90%;">
         <h3 class="mb-4 text-center">Welcome Summer</h3>
         <hr class="my-4">
         <p class="text-center lead">Welcome summer with deals to these fantastic destinations</p>
+        <p class="text-center lead"><i class="fa-solid fa-umbrella-beach"></i></p>
 
-        <div class="row text-center">
+        <div class="row text-center mt-4">
             <div class="col-lg-2 col-md-4 col-sm-6">
                 <div class="card">
                     <img src="./images/greece.jpg" class="card-img-top" alt="...">
@@ -144,9 +150,30 @@
                   </div>
             </div>
         </div>
-
-
     </div>
+
+    <div id="day" class="container-fluid" style="width:90%;">
+        <h3 class="mt-4 text-center">Deal of the Day</h3>
+        <hr class="my-4">
+        <div class="row text-center mt-4 p-0 m-0" style="width:100%">
+            <div class="card col border-0">
+                <h5 class="card-header">Edinburgh, Scotland</h5>
+                <img id="feature" src="./images/edinburgh.jpg" class="card-img-top rounded-0" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Visit the stunning capital of Scotland</h5>
+                  <p class="card-text">
+
+                    With the city's skyline, cobbled streets and colourful characters as your backdrop, your favourite memories happened right here. Are you ready for more? There’s so many ways to embrace the city, explore, have fun on your doorstep and write new stories to revisit in years to come.
+                    
+                    Resident or tourist, Forever Edinburgh is here to help you see Edinburgh in unexpected and exciting ways. Let the adventure begin.....
+                    <br><br> Prices from £150 per person per night
+                </p>
+                    
+                  <a href="#" class="btn btn-primary">Contact us to Book</a>
+                </div>
+              </div>
+
+        </div>
     </div>
 
 
